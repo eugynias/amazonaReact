@@ -4,6 +4,7 @@ import { Route ,BrowserRouter ,Link } from 'react-router-dom';
 import "./App.css";
 import HomeScreen from "./Screens/HomeScreen";
 import ProductScreen from "./Screens/ProductScreen";
+import HomeScreeen from './Screens/HomeScreen';
 
 
 const openMenu =()=> {
@@ -25,7 +26,7 @@ return (
                 <button onClick={openMenu}>
                     &#9776;
                 </button> 
-                <a href="index.html">Amazona</a>
+                <Link to="/">Amazona</Link>
             </div>
             <div class="header-links">
                 <a href="cart.html">Cart</a>
